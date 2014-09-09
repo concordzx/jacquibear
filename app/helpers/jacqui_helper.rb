@@ -1,0 +1,2 @@
+module JacquiHelper
+end

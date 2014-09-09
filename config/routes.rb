@@ -1,4 +1,8 @@
 Jacquibear::Application.routes.draw do
+  root 'jacqui#home'
+  match '/home',    to: 'jacqui#home',    via: 'get'
+  match '/beach',    to: 'jacqui#beach',    via: 'get'
+  match '/sixmonth',    to: 'jacqui#sixmonth',    via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

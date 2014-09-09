@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Jacquibear</title>
+  <title>Jacquibear<3</title>
+   <link REL="StyleSheet" TYPE="text/css" HREF="application.css">										<!--link to style application stylesheet-->
+   <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>   <!-- indie flower font-->
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  
+  <div id="tophead">For My Jacquibear</div>
+  <h1><%= link_to "Home",    'home' %> - <%= link_to "Beach",    'beach' %> - <%= link_to "6 Month",    'sixmonth' %></h1>
 </head>
 <body>
 
